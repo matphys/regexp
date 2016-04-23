@@ -7,8 +7,8 @@
 # bab ---> bzb
 # bcb ---> bzb
 # bxb ---> bzb
-REGEXP_1 = ''
-REGEXP_1_REPL = ''
+REGEXP_1 = 'b.{1}b'
+REGEXP_1_REPL = 'bzb'
 
 # abcXYZabc   ---> abcabc
 # XaYbZcWaM   ---> abca
